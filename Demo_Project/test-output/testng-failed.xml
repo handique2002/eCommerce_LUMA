@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [LUMA eCommerce Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="LUMA eCommerce TestCases(failed)">
+    <classes>
+      <class name="testCase.HomeTest">
+        <methods>
+          <include name="Validate_womenTop"/>
+          <include name="launchURL"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCase.HomeTest -->
+      <class name="testCase.LoginTest">
+        <methods>
+          <include name="Validate_invalidLogin"/>
+          <include name="tearDown"/>
+          <include name="launch_URL"/>
+        </methods>
+      </class> <!-- testCase.LoginTest -->
+    </classes>
+  </test> <!-- LUMA eCommerce TestCases(failed) -->
+</suite> <!-- Failed suite [LUMA eCommerce Suite] -->

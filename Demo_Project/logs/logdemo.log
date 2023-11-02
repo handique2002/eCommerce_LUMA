@@ -1,0 +1,59 @@
+07:13:13.651 INFO  - Start Test!
+07:13:15.564 INFO  - Launch Browser
+07:13:19.609 INFO  - Browser launched
+07:13:22.621 INFO  - Click on SignIn link
+07:13:24.157 INFO  - Pause script
+07:13:32.977 INFO  - Hover over
+07:14:26.551 INFO  - Start Test!
+07:14:28.293 INFO  - Launch Browser
+07:14:34.957 INFO  - Browser launched
+07:14:37.966 INFO  - Click on SignIn link
+07:14:39.233 INFO  - Pause script
+07:14:55.983 INFO  - Hover over
+07:15:05.526 INFO  - Pause script
+07:23:48.780 INFO  - Login with valid creds
+07:24:01.482 INFO  - Pause script
+07:27:14.963 INFO  - Login with valid creds
+07:27:26.780 INFO  - Pause script
+07:27:26.780 INFO  - Verify correct login
+13:35:33.063 INFO  - Login with valid creds
+13:36:00.574 INFO  - Pause script
+13:36:00.574 INFO  - Verify correct login
+13:43:49.928 INFO  - Login with valid creds
+13:44:22.830 INFO  - Login with valid creds
+13:44:51.598 INFO  - Login with valid creds
+13:45:12.831 INFO  - Pause script
+13:45:12.831 INFO  - Verify correct login
+13:46:29.759 INFO  - Login with valid creds
+13:46:43.233 INFO  - Pause script
+13:46:43.233 INFO  - Verify correct login
+13:48:14.480 INFO  - Login with valid creds
+13:48:52.948 INFO  - Start Test!
+13:48:54.573 INFO  - Launch Browser
+13:49:14.318 INFO  - Browser launched
+13:49:17.330 INFO  - Click on SignIn link
+14:39:17.093 INFO  - Login with valid creds
+14:40:50.149 INFO  - Pause script
+14:40:50.149 INFO  - Verify correct login
+14:53:53.951 INFO  - Start Test!
+14:53:55.780 INFO  - Launch Browser
+14:54:16.434 INFO  - Browser launched
+14:54:19.445 INFO  - Click on SignIn link
+15:03:21.574 INFO  - Login with valid creds
+15:03:32.803 INFO  - Pause script
+15:03:32.804 INFO  - Verify correct login
+15:03:47.791 INFO  - Login with valid creds
+15:03:58.963 INFO  - Pause script
+15:03:58.963 INFO  - Verify correct login
+15:05:35.707 INFO  - Login with valid creds
+15:05:46.819 INFO  - Pause script
+15:05:46.821 INFO  - Verify correct login
+15:06:18.857 INFO  - Login with valid creds
+15:06:30.221 INFO  - Pause script
+15:06:30.221 INFO  - Verify correct login
+17:57:04.590 INFO  - Login with valid creds
+17:57:19.578 INFO  - Pause script
+17:57:19.578 INFO  - Verify correct login
+18:00:26.631 INFO  - Login with valid creds
+18:00:39.432 INFO  - Pause script
+18:00:39.432 INFO  - Verify correct login

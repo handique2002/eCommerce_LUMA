@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+
+	<Properties>
+		<Property name="filename">./logs</Property>
+	</Properties>
+
+	<Appenders>
+
+		<RollingFile name="file" 
+					 fileName="${filename}/logdemo.log" 
+					 filePattern="${filename}/logdemo-%d{HH:mm:ss.SSS}.log">
+
+			<PatternLayout>
+				<pattern>%d{HH:mm:ss.SSS} %-5level - %msg%n</pattern>
+			</PatternLayout>
+
+			<SizeBasedTriggeringPolicy size="500" />
+		</RollingFile>
+
+		<Console name="ABC" target="SYSTEM_OUT">
+			<PatternLayout pattern="%d{HH:mm:ss.SSS} %-5level - %msg%n" />
+		</Console>
+
+
+	</Appenders>
+
+	<Loggers>
+		<Logger name="LoginTest" level="info" additivity="false">
+			<AppenderRef ref="ABC" />
+			<AppenderRef ref="file" />
+		</Logger>
+
+		<Root level="info">
+			<AppenderRef ref="ABC" />
+			<AppenderRef ref="file" />
+		</Root>
+	</Loggers>
+
+</Configuration>
