@@ -22,6 +22,7 @@ public class LaunchTest extends Base_Class{
 		PreConditions();
 		
 		System.out.println("Add to Github");	
+		System.out.println("Add to Eclipse");
 		
 		driver.quit();
 						
