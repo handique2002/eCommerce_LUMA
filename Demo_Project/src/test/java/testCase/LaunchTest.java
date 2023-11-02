@@ -21,7 +21,7 @@ public class LaunchTest extends Base_Class{
 		
 		PreConditions();
 		
-		//obj1.Screenshot("image");		
+		System.out.println("Add to Github");	
 		
 		driver.quit();
 						
