@@ -21,7 +21,8 @@ public class LaunchTest extends Base_Class{
 		
 		PreConditions();
 		
-		//obj1.Screenshot("image");		
+		//Push to tester 1
+		
 		
 		driver.quit();
 						
