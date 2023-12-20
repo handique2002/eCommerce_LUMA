@@ -1,29 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="6" failed="2" skipped="0">
+<testng-results ignored="3" total="4" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-02T17:55:32 IST" name="LUMA eCommerce Suite" finished-at="2023-11-02T17:57:56 IST" duration-ms="144289">
+  <suite started-at="2023-11-04T18:08:35 IST" name="Default suite" finished-at="2023-11-04T18:08:52 IST" duration-ms="17269">
     <groups>
     </groups>
-    <test started-at="2023-11-02T17:55:32 IST" name="LUMA eCommerce TestCases" finished-at="2023-11-02T17:57:56 IST" duration-ms="144289">
+    <test started-at="2023-11-04T18:08:35 IST" name="Default test" finished-at="2023-11-04T18:08:52 IST" duration-ms="17269">
       <class name="testCase.LoginTest">
-        <test-method is-config="true" signature="launch_URL()[pri:0, instance:testCase.LoginTest@47af7f3d]" started-at="2023-11-02T17:56:59 IST" name="launch_URL" finished-at="2023-11-02T17:57:04 IST" duration-ms="5291" status="PASS">
+        <test-method is-config="true" signature="launch_URL()[pri:0, instance:testCase.LoginTest@41fbdac4]" started-at="2023-11-04T18:08:35 IST" name="launch_URL" finished-at="2023-11-04T18:08:41 IST" duration-ms="5890" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch_URL -->
-        <test-method signature="Validate_login()[pri:1, instance:testCase.LoginTest@47af7f3d]" started-at="2023-11-02T17:57:04 IST" name="Validate_login" finished-at="2023-11-02T17:57:19 IST" duration-ms="15005" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Validate_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.LoginTest@47af7f3d]" started-at="2023-11-02T17:57:19 IST" name="tearDown" finished-at="2023-11-02T17:57:19 IST" duration-ms="323" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launch_URL()[pri:0, instance:testCase.LoginTest@47af7f3d]" started-at="2023-11-02T17:57:19 IST" name="launch_URL" finished-at="2023-11-02T17:57:30 IST" duration-ms="10247" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch_URL -->
-        <test-method signature="Validate_invalidLogin()[pri:2, instance:testCase.LoginTest@47af7f3d]" started-at="2023-11-02T17:57:30 IST" name="Validate_invalidLogin" finished-at="2023-11-02T17:57:45 IST" duration-ms="15143" status="FAIL">
+        <test-method signature="Validate_invalidLogin()[pri:2, instance:testCase.LoginTest@41fbdac4]" started-at="2023-11-04T18:08:41 IST" name="Validate_invalidLogin" finished-at="2023-11-04T18:08:52 IST" duration-ms="10865" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Incorrect login credentials. expected [Welcome, Pranjal Handique!] but found [Click “Write for us” link in the footer to submit a guest post]]]>
@@ -35,7 +23,7 @@ at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:629)
-at testCase.LoginTest.Validate_invalidLogin(LoginTest.java:70)
+at testCase.LoginTest.Validate_invalidLogin(LoginTest.java:72)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -70,122 +58,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Validate_invalidLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.LoginTest@47af7f3d]" started-at="2023-11-02T17:57:45 IST" name="tearDown" finished-at="2023-11-02T17:57:45 IST" duration-ms="190" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launch_URL()[pri:0, instance:testCase.LoginTest@47af7f3d]" started-at="2023-11-02T17:57:45 IST" name="launch_URL" finished-at="2023-11-02T17:57:51 IST" duration-ms="5635" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch_URL -->
-        <test-method signature="Validate_logo()[pri:3, instance:testCase.LoginTest@47af7f3d]" started-at="2023-11-02T17:57:51 IST" name="Validate_logo" finished-at="2023-11-02T17:57:51 IST" duration-ms="43" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Validate_logo -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.LoginTest@47af7f3d]" started-at="2023-11-02T17:57:51 IST" name="tearDown" finished-at="2023-11-02T17:57:51 IST" duration-ms="177" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launch_URL()[pri:0, instance:testCase.LoginTest@47af7f3d]" started-at="2023-11-02T17:57:51 IST" name="launch_URL" finished-at="2023-11-02T17:57:56 IST" duration-ms="4681" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch_URL -->
-        <test-method signature="Validate_SignIn_Link()[pri:4, instance:testCase.LoginTest@47af7f3d]" started-at="2023-11-02T17:57:56 IST" name="Validate_SignIn_Link" finished-at="2023-11-02T17:57:56 IST" duration-ms="51" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Validate_SignIn_Link -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.LoginTest@47af7f3d]" started-at="2023-11-02T17:57:56 IST" name="tearDown" finished-at="2023-11-02T17:57:56 IST" duration-ms="169" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.LoginTest@41fbdac4]" started-at="2023-11-04T18:08:52 IST" name="tearDown" finished-at="2023-11-04T18:08:52 IST" duration-ms="178" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCase.LoginTest -->
-      <class name="testCase.LaunchTest">
-        <test-method signature="launch_url()[pri:0, instance:testCase.LaunchTest@41fbdac4]" started-at="2023-11-02T17:55:32 IST" name="launch_url" finished-at="2023-11-02T17:55:41 IST" duration-ms="9588" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch_url -->
-      </class> <!-- testCase.LaunchTest -->
-      <class name="testCase.HomeTest">
-        <test-method is-config="true" signature="launchURL()[pri:0, instance:testCase.HomeTest@20ce78ec]" started-at="2023-11-02T17:55:41 IST" name="launchURL" finished-at="2023-11-02T17:55:59 IST" duration-ms="17922" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchURL -->
-        <test-method signature="Validate_LabelName()[pri:0, instance:testCase.HomeTest@20ce78ec]" started-at="2023-11-02T17:55:59 IST" name="Validate_LabelName" finished-at="2023-11-02T17:55:59 IST" duration-ms="75" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Validate_LabelName -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.HomeTest@20ce78ec]" started-at="2023-11-02T17:55:59 IST" name="tearDown" finished-at="2023-11-02T17:56:00 IST" duration-ms="291" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchURL()[pri:0, instance:testCase.HomeTest@20ce78ec]" started-at="2023-11-02T17:56:00 IST" name="launchURL" finished-at="2023-11-02T17:56:24 IST" duration-ms="24361" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchURL -->
-        <test-method signature="Validate_PageTitle()[pri:0, instance:testCase.HomeTest@20ce78ec]" started-at="2023-11-02T17:56:24 IST" name="Validate_PageTitle" finished-at="2023-11-02T17:56:24 IST" duration-ms="17" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Validate_PageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.HomeTest@20ce78ec]" started-at="2023-11-02T17:56:24 IST" name="tearDown" finished-at="2023-11-02T17:56:24 IST" duration-ms="284" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchURL()[pri:0, instance:testCase.HomeTest@20ce78ec]" started-at="2023-11-02T17:56:24 IST" name="launchURL" finished-at="2023-11-02T17:56:41 IST" duration-ms="16343" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchURL -->
-        <test-method signature="Validate_womenTop()[pri:0, instance:testCase.HomeTest@20ce78ec]" started-at="2023-11-02T17:56:41 IST" name="Validate_womenTop" finished-at="2023-11-02T17:56:58 IST" duration-ms="17440" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Page title do not match expected [New Luma Yoga Collection] but found [Jackets - Tops - Women]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Page title do not match expected [New Luma Yoga Collection] but found [Jackets - Tops - Women]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at testCase.HomeTest.Validate_womenTop(HomeTest.java:77)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Validate_womenTop -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.HomeTest@20ce78ec]" started-at="2023-11-02T17:56:58 IST" name="tearDown" finished-at="2023-11-02T17:56:59 IST" duration-ms="287" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCase.HomeTest -->
-    </test> <!-- LUMA eCommerce TestCases -->
-  </suite> <!-- LUMA eCommerce Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
