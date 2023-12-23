@@ -21,14 +21,10 @@ public class LaunchTest extends Base_Class{
 		
 		PreConditions();
 		
-<<<<<<< HEAD
+
 		System.out.println("Add to Github");	
 		System.out.println("Add to Eclipse");
-=======
-		//Push to tester 1
-		
->>>>>>> branch 'master' of https://github.com/handique2002/eCommerce_LUMA.git
-		
+
 		driver.quit();
 						
 	}

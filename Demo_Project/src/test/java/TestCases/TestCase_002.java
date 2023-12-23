@@ -15,71 +15,28 @@ public class TestCase_002 {
 
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("https://www.facebook.com/r.php?locale=en_GB&display=page");
-		String PageTitle=driver.getTitle();
-		System.out.println(PageTitle);
+		driver.get("https://www.guru99.com/ebook-pdf.html");
 		
-		By loc1=By.xpath("//input[@type=\"text\" and @name=\"lastname\"]");
-		driver.findElement(loc1).sendKeys("test");
+		List<WebElement> ls=driver.findElements(By.tagName("a"));
+		ls.size();
 		
-		By loc2=By.xpath("//input[@type=\"text\" and @name=\"firstname\"]");
-		driver.findElement(loc2).sendKeys("Demo");
+		System.out.println("Number of links: "+ls.size());
+		
+		driver.findElement(By.xpath("//h2[text()=\"Following IT eBooks PDF are included in the Bundle\"]//following::img[1]")).click();
+		//System.out.println(driver.getTitle());
+		Thread.sleep(9000);
+		
+		driver.findElement(By.xpath("//strong[text()=\"Python eBook\"]//following::strong[1]")).click();
+		//System.out.println(driver.getTitle());		
+		Thread.sleep(9000);
+		
+		String parent_handle=driver.getWindowHandle();
 		
 		
-		JavascriptExecutor js=(JavascriptExecutor) driver;
-		//js.executeScript("arguments[0].scrollIntoView();", ele1);
-		//js.executeScript("window.scrollBy(0,1000)");
-		//System.out.println("Scrolled Down");
 		
-		Thread.sleep(2000);
+		driver.quit();
 		
-		WebElement ele1=driver.findElement(By.xpath("//button[@name=\"websubmit\"]"));
-		ele1.click();
 		
-		WebElement ele2=driver.findElement(By.xpath("//select[@name=\"birthday_day\" and @title=\"Day\"]"));
-		WebElement ele3=driver.findElement(By.xpath("//select[@name=\"birthday_month\" and @title=\"Month\"]"));
-		
-		Select sel1=new Select(ele2);
-		sel1.selectByIndex(1);
-		
-		Select sel2=new Select(ele3);
-		sel2.selectByIndex(2);
-		
-		Thread.sleep(3000);
-		
-		Select sel3=new Select(ele2);
-		sel3.selectByIndex(2);
-		
-		Select sel4=new Select(ele3);
-		sel4.selectByIndex(5);
-		//sel4.
-		
-		//String str1=sel4.toString();
-		//System.out.println(str1);
-		
-		List<WebElement> list1=sel2.getOptions();
-		
-		for(int i=0;i<list1.size();i++)
-		{
-			String MonthName=list1.get(i).getText();
-			//System.out.println(MonthName);
-			
-			if(MonthName.equalsIgnoreCase("Mar"))
-			{
-				sel2.selectByVisibleText("Mar");
-				System.out.println("Mar selected");
-				break;
-			}
-			else
-			{
-				System.out.println("Mar not present in list");
-			}
-		}
-		
-		Thread.sleep(3000);
-		
-		//driver.close();
-
 	}
 
 }

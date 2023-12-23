@@ -28,7 +28,7 @@ public class HomePage extends Base_Class{
 	
 	public HomePage()
 	{
-		PageFactory.initElements(driver, this);
+		PageFactory.initElements(driver,this);
 	}
 	
 	public String PageTitle()

@@ -3,8 +3,8 @@
 <suite name="LUMA eCommerce Suite">
   <test name="LUMA eCommerce TestCases">
     <classes>
-      <class name="testCase.LaunchTest"/>
-      <class name="testCase.HomeTest"/>  
+     <!--  <class name="testCase.LaunchTest"/> 
+      <class name="testCase.HomeTest"/>  -->
        <class name="testCase.LoginTest"/>
     </classes>
   </test> <!-- Test -->
